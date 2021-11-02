@@ -1,0 +1,50 @@
+.btn-group
+{
+	margin-left: 160px;
+	text-align: center;
+}
+.titulo
+{
+	padding-top: 30px;
+	text-align: center;
+	font-size: 64px;
+	font-style: italic;
+}
+.container
+{
+	width: 80%;
+}
+.btn
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 100px;
+	background-color: #000000;
+	color: #FFFFFF
+}
+.livro
+{
+	margin-top: 10px;
+	border: solid 1px;
+	border-color: black;
+	text-align: left;
+}
+.livrotxt
+{
+	padding: 10px;
+	text-align: justify;
+}
+.livrotit
+{
+	font-weight: bold;
+	font-size: 16px;
+}
+.livroaut
+{
+	font-style: oblique;
+	font-size: 16px;
+}
+.img
+{
+	margin: 10px;
+}
