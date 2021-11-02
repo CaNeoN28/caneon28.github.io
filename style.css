@@ -22,29 +22,78 @@
 	background-color: #000000;
 	color: #FFFFFF
 }
-.livro
+.content
+{
+	text-align: left;
+}
+.box
 {
 	margin-top: 10px;
 	border: solid 1px;
 	border-color: black;
 	text-align: left;
 }
-.livrotxt
+.box2
 {
-	padding: 10px;
+	margin-top: 10px;
+	border: solid 1px;
+	border-color: black;
+	text-align: left;
+	width: 18%;
+	margin: 1%;
+}
+.boxtxt
+{
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
 	text-align: justify;
 }
-.livrotit
+.boxtit
 {
 	font-weight: bold;
 	font-size: 16px;
 }
-.livroaut
+.boxtit2
+{
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+	text-align: center;
+}
+.subtit
 {
 	font-style: oblique;
 	font-size: 16px;
 }
+.subtit2
+{
+	font-style: oblique;
+	font-size: 14px;
+	text-align: center;
+}
 .img
 {
+	margin: 10px;
+}
+
+ul
+{
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0px;
+	margin: 0px;
+}
+li
+{
+	float: left;
+}
+li a
+{
+	display: block;
+}
+form
+{
+	text-align: center;
 	margin: 10px;
 }
