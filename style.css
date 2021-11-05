@@ -1,4 +1,4 @@
-.btn-group
+/*.btn-group
 {
 	margin-left: 30%;
 	text-align: center;
@@ -16,9 +16,6 @@
 }
 .btn
 {
-	margin-left: 3%;
-	margin-right: 3%;
-	width: 20%;
 	background-color: #000000;
 	color: #FFFFFF
 }
@@ -32,6 +29,8 @@
 	border: solid 1px;
 	border-color: black;
 	text-align: left;
+	overflow: hidden;
+	float: left;
 }
 .box2
 {
@@ -96,4 +95,183 @@ form
 {
 	text-align: center;
 	margin: 10px;
+}
+*/
+
+.btn
+{
+	color: white;
+	background-color: black;
+	margin: 5%;
+}
+
+.block
+{
+	width: 20%;
+	display: inline-block;
+}
+
+ul
+{
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0px;
+	margin: 0px;
+}
+
+.btn-group
+{
+	width: 60%;
+}
+
+
+.titulo
+{
+	text-align: center;
+	font-size: 64px;
+	font-style: italic;
+	margin: 2%;
+}
+.titulo1
+{
+	font-size: 24px;
+	font-weight: bold;
+	padding-left: 10px;
+	display: block;
+}
+.titulo2
+{
+	font-weight: bold;
+	padding-left: 10px;
+	display: block;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.box
+{
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	width: 46%;
+	display: inline-block;
+	text-align: justify;
+	margin: 1%;
+	vertical-align:top;
+}
+.box1
+{
+	border: 1px;
+	border-color:black;
+	border-style: solid;
+	width: 18%;
+	display: inline-block;
+	text-align: center;
+	vertical-align:top;
+	padding-bottom: 1%;
+	margin: 0.5%;
+}
+.box2
+{
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	width: 23%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	padding-bottom: 1%;
+	margin : 0.5%;
+}
+.box3
+{
+	border: 1px;
+	border-color: black;
+	border-style: solid;
+	width: 98%;
+	display: inline-block;
+	text-align: justify;
+	padding: 1%;
+}
+.box4
+{
+	width: 20%;
+	text-align: right;
+	padding: 1%;
+	float: right;
+}
+
+.img1
+{
+	width: 20%;
+	float: left;
+	margin: 10px;
+}
+.img2
+{
+	float: right;
+	width: 40%;
+	margin: 10px;
+}
+
+.txt1
+{
+	margin: 10px;
+}
+
+.tit
+{
+	font-weight: bold;
+	font-size: 16px;
+	
+	text-decoration: none;
+	color: black;
+}
+.subtit
+{
+	font-style: oblique;
+	text-decoration: none;
+	color: black;
+}
+
+@media screen and (max-width: 560px) {
+	.btn-group
+	{
+		display: inline-block;
+		width: 100%;
+	}
+	.block
+	{
+		display: block;
+	}
+	.btn
+	{
+		display: inline-block;
+		width: 90%;
+	}
+	.box{
+      display: inline-block;
+      width: 100%;
+    }
+	.box1
+	{
+		width: 80%;
+		display: inline-block;
+	}
+	.box2
+	{
+		width: 100%;
+		display: inline-block;
+	}
+	.box4
+	{
+		width: 100%;
+	}
+	.img1
+	{
+		float: none;
+		width: 90%;
+		margin: 5%;
+		text-align: center;
+	}
 }
