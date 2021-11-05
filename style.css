@@ -233,6 +233,36 @@ ul
 	text-decoration: none;
 	color: black;
 }
+.dropbtn
+{
+	color: white;
+	background-color: black;
+	padding: 8px;
+}
+.dropdown
+{
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content
+{
+	display: none;
+	position: absolute;
+	background-color: rgb(73, 73, 73);
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown-content a {
+	color: rgb(255, 255, 255);
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+.dropdown:hover .dropdown-content
+{
+	display: block;
+}
 
 @media screen and (max-width: 560px) {
 	.btn-group
